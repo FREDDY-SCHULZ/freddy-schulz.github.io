@@ -1,0 +1,129 @@
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+		margin: 0px;
+}
+
+a {
+  color: black;
+}
+
+
+
+
+.picture-banner {
+  display: block;
+  width: 100%;
+}
+
+.logo-box {
+  width: 25%;
+  height: 20%;
+  margin-top: -27%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flocke {
+  width: 60px;
+  height: auto;
+  margin-left: 36%;
+  margin-right: auto;
+}
+
+.logo-box:hover .flocke {
+  transform: scale(3);
+  transition: .4s transform;
+}
+
+.box{
+  width: 25%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  display: inline;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 3%;
+}
+
+.box a {
+  display: inline;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 3%;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1628px) {
+  p {
+    display: none;
+  }
+
+  .box a {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5em;
+  }
+
+  .flocke {
+    width: 60px;
+    height: auto;
+    margin-left: 40%;
+    margin-right: auto;
+  }
+
+  .logo-box:hover .flocke {
+    transform: scale(1.5);
+    transition: .4s transform;
+  }
+
+  }
+
+
+  @media only screen and (max-width: 850px) {
+    p {
+      display: none;
+    }
+
+    .box a {
+      display: block;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      text-decoration: none;
+      text-align: center;
+      line-height: 1.5em;
+    }
+
+    .flocke {
+      width: 60px;
+      height: auto;
+      margin-left: 36%;
+      margin-right: auto;
+    }
+
+    .logo-box:hover .flocke {
+      transform: scale(1);
+      transition: .4s transform;
+    }
+
+    .logo-box {
+      width: 25%;
+      height: 20%;
+      margin-top: -30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    }
