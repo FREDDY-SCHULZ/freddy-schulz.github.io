@@ -152,7 +152,7 @@ blockquote p {
 
 .spalte {
 		display: inline-block;
-    width: 29%;
+    width: 28%;
     vertical-align: top;
     padding-left: 2%;
     padding-right: 2%;
@@ -179,7 +179,7 @@ blockquote p {
   text-decoration: line-through;
 }
 
-@media only screen and (max-width: 1483px) {
+@media only screen and (max-width: 1365px) {
   .spalte {
     width: 60%;
     margin-left: auto;
